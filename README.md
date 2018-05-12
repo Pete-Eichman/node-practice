@@ -17,6 +17,18 @@
 5. Create a file called index.js.
 `touch index.js`, or if you like VIM `vim index.js`.
 
-6. Setup the file as seen in index.js.
+6. In your text editor, write the following lines of code in the new file, index.js:
 
+
+```
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send({ hi: 'there'});
+});
+
+app.listen(5000);
+```
+                   
 7. Once index.js is set up, run `node index.js` in the server directory, and navigate to localhost:5000 in your browser to check that it is running properly.
