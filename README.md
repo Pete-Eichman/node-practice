@@ -23,5 +23,6 @@
 7. Create a file called index.js in the server directory.
 `touch index.js`, or if you like VIM `vim index.js`.
 
-8. Setup the file as seen in index.js here. Then run
-`node index.js` and navigate to localhost:5000 in your browser.
+8. Setup the file as seen in index.js.
+
+9. Once index.js is set up, run `node index.js` in the server directory, and navigate to localhost:5000 in your browser.
